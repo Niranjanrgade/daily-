@@ -17,6 +17,8 @@ a = c(((1:40) %% 10) == 0)
 a = (c(1:40)[a])
 print(a)
 a
-if (c(1:40) %% 10 == 0) {print("d")}
+for (number in a) {
+  print("d")
+  }
 print(numbers)
   
